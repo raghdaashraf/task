@@ -1,0 +1,49 @@
+.all{width:100%;text-align:center; padding:0px; margin:4% auto 2% auto;}
+.date_head{float:right;font-weight:bold; font-size:14px;}
+.date_head span{font-weight:normal;}
+.header_print_right{width:100%; float:right; border:1px solid #000;border-bottom:0px none; margin-top:5%;}
+.header_date{border-right:1px solid #000; border-bottom:1px solid #000; float:left;width:30%; padding:1%; font-weight:bold; color:#009; font-size:16px;}
+.header_info{border-bottom:1px solid #000;width:70%;float:left; padding:1%;font-size:16px;}
+.page_print{padding:0px 20px 10px 20px;height: auto; margin: auto; width: 100%;}
+.print_head{font-size:24px; text-align:center; width:100%; font-weight:bold;}
+.print_box{ width:100%; float:left; margin:1% 0px;}
+
+.print_title{font-size:14px; text-align:left;font-weight:600;float:left;line-height:30px;}
+.print_title span{float:right; font-weight:bold;}
+.print_info{font-size:14px; text-align:left;font-weight:normal; line-height:30px;}
+tr th{border-top:1px solid #888 !important; }
+
+.top_print2{font-size:22px; margin-top:15%; float:left; width:100%}
+.top_print2 span{width:80px; float:left; font-weight:700;}
+
+.form-section {margin: 30px 0px 25px 0px; padding-bottom: 5px; border-bottom: 1px solid #eee;}
+.margin_none{margin: 0px 5px 10px 5px;}
+.margin_none .form-section{margin-top:0px !important;}
+
+@media print{
+div {float: left; width: 100%;font-size:14px;}
+thead{display: table-header-group;}
+#header_page {position:fixed;bottom:0px; top:0px; right:0; float:left;} 
+#collect{position:relative; top:180px; bottom:500px; margin-bottom:100px;width:100%; float:left;}
+#footer_page { display: inline-block; position: fixed;bottom:0px; left:0; right:0;width:100%; float:left}   
+h5.form-section {border-bottom: 1px solid #666; font-size: 18px; line-height:30px;}
+.form-section{font-size:22px;}
+.print_head{font-size:30px;}
+.top_space{margin-top:0px;}
+.table-bordered > thead > tr > th, .table-bordered > tbody > tr > th, .table-bordered > tfoot > tr > th, .table-bordered > thead > tr > td, .table-bordered > tbody > tr > td, .table-bordered > tfoot > tr > td { border:1px solid #333 !important;}
+.print_title{font-size:18px;}
+.print_info{font-size:18px}
+.table thead tr th{font-size:18px !important;}
+.table tbody tr td{font-size:16px;}
+.printable{display:block;}
+.note_border{border: 1px solid #333;}
+.visible_print{display:block;}
+.hidden_print{display:none;}
+#report .print_title{font-size:14px;}
+#report .print_info{font-size:14px}
+#report .table thead tr th{font-size:14px !important;}
+#report .table tbody tr td{font-size:14px;}
+.print_arabic ol{direction:rtl; text-align:right; font-size:18px;}
+.border_receive{border:1px solid #000; font-size:18px; padding:10px; padding-top:0px}
+
+}
