@@ -84,10 +84,10 @@
                         <table id="fresh-table" class="table">
                             <thead>
                             <th data-field="id" data-sortable="true">#</th>
-                            <th data-field="name" data-sortable="true">Name</th>
-                            <th data-field="username" data-sortable="true">Username</th>
-                            <th data-field="email" data-sortable="true">E-mail</th>
-                            <th data-field="branch" data-sortable="true">Branch</th>
+                            <th data-field="name" data-sortable="true">hotel Name</th>
+                            <th data-field="username" data-sortable="true">City</th>
+                            <th data-field="email" data-sortable="true">Price</th>
+                            <th data-field="branch" data-sortable="true">availability</th>
                             </thead>
                             <tbody>
                                 <?php
